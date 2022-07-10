@@ -5,27 +5,27 @@ from tkinter import Menu
 
 # ========= CONFIG =========
 
-algo = tk.Tk()
-algo.title('AlgoBetting KnapCorp')
-algo.geometry('900x450')
-algo.resizable(0, 0)
+window = tk.Tk()
+window.title('AlgoBetting KnapCorp')
+window.geometry('900x450')
+window.resizable(0, 0)
 
 
 # Tab Control
-tabControl = ttk.Notebook(algo)
+tabControl = ttk.Notebook(window)
 
 # Menu
 
 def _quit():
-    algo.quit()
-    algo.destroy()
+    window.quit()
+    window.destroy()
     exit()
 
 def aboutUs():
     mBox.showinfo('About us', 'Software created by KnapCorp\nVisit www.KnapCorp.com for more informations.')
 
-menuBar = Menu(algo)
-algo.config(menu=menuBar)
+menuBar = Menu(window)
+window.config(menu=menuBar)
 
 programMenu = Menu(menuBar, tearoff=0)
 menuBar.add_cascade(label='Program', menu=programMenu)
@@ -52,5 +52,5 @@ tabControl.add(slovakiaFortunaLiga, text='SLOVAKIA Fortuna Liga')
 tabControl.pack(expand=1, fill='both', padx=10, pady=10)
 
 
-algo.iconbitmap(r'C:\Programowanie\Python\learnPy\simple_projects\AlgoBetting KnapCorp 1.0\icon.ico')
-algo.mainloop()
+window.iconbitmap(r'icon.ico')
+window.mainloop()
