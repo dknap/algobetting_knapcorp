@@ -6,7 +6,7 @@ from tkinter import Menu
 # ========= CONFIG =========
 
 algo = tk.Tk()
-algo.title('AlgoBetting KnapCorp / 1.0')
+algo.title('AlgoBetting KnapCorp')
 algo.geometry('900x450')
 algo.resizable(0, 0)
 
