@@ -1,7 +1,5 @@
 # algobetting_knapcorp
 
-It might be useful, but I don't know yet<br />
-.<br />
-.<br />
-.<br />
-stay tuned. 👀
+<b>[11/07/2022]
+<code><b/> It might be useful, but I don't know yet... stay tuned. 👀
+</code>
